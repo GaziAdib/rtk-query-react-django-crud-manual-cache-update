@@ -7,7 +7,6 @@ import { useUpdateProjectMutation } from '../rtk-query/api/apiSlice';
 
 const FormUpdate = ({ singleProject }) => {
 
-    console.log('singleProject', singleProject);
 
     const navigate = useNavigate();
 
